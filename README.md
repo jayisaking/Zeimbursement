@@ -7,6 +7,9 @@ This is a ZK project that aims for storing transactions inside a company or othe
    npm install
    ```
    **Make sure you have Wallet like metamask installed in the browser**
+
+   Download zkey of ECDSA from [Here](https://drive.google.com/file/d/1oxt_GAueedCzYYuMzLTAOb3e-WA5dOgf/view?usp=sharing), And place it under ```public/circuits/ecdsa```
+
 2. Run the Web
 
    ```
