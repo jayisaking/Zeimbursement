@@ -1,0 +1,14 @@
+{
+  "Zeimbursement": {
+    "address": "0x4765689Ba8a6fec5254000A5b23eA204EF0034aB",
+    "abi": [
+      "function setUpNewExpense (uint256 expenseId, uint256[8] publicKeyN, uint256[8] publicKeyE, uint256[4][2][4] allowedPublicKeys)",
+      "function allowUploader(address uploader, uint256 expenseId)",
+      "function addAdmin(address newAdmin, uint256 expenseId)",
+      "function uploadTransaction(uint[2][4]  ecdsaProofPartyA, uint[2][4]  ecdsaProofPartyB, uint[4]  messageHash, uint[2]  proofARSA, uint[2][2]  proofBRSA, uint[2]  proofCRSA, uint[8]  amountHash, uint256 expenseId)"
+    ],
+    "eventAbi": {
+      "setUpNewExpense": "event expenseSetUp(uint256 expenseId, uint256[8] publicKeyN, uint256[8] publicKeyE, address newAdmin, uint256[4][2][4] allowedPublicKeys)"
+    }
+  }
+}
