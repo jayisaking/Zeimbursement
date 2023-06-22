@@ -11,7 +11,7 @@ The *..Verifier* is included in *[Zeimbursement.sol](contracts/Zeimbursement.sol
     ```
     npx hardhat test
     ```
-3. deploy
+3. Deploy
    
    To deploy, you need to create a new .env with following items in Goerli
     ```
